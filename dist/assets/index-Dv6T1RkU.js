@@ -26,7 +26,7 @@
             </div>
         </div>
         ${P()}
-    `}const u=e=>document.querySelector(e);function V(e,a){const n=e.toLowerCase().replace(/á/g,"a").replace(/é/g,"e").replace(/í/g,"i").replace(/ó/g,"o").replace(/ú/g,"u"),r=a.toLowerCase().replace(/á/g,"a").replace(/é/g,"e").replace(/í/g,"i").replace(/ó/g,"o").replace(/ú/g,"u");return n.startsWith(r)}const E="./instruments/imgs/",g=e=>`
+    `}const u=e=>document.querySelector(e);function V(e,a){const n=e.toLowerCase().replace(/á/g,"a").replace(/é/g,"e").replace(/í/g,"i").replace(/ó/g,"o").replace(/ú/g,"u"),r=a.toLowerCase().replace(/á/g,"a").replace(/é/g,"e").replace(/í/g,"i").replace(/ó/g,"o").replace(/ú/g,"u");return n.startsWith(r)}const E="../instruments/imgs/",g=e=>`
 <article class="instrument">
     ${e.img?`<img src="${E}${e.img}" alt="${e.name}">`:""}
     <header class="nohr">
