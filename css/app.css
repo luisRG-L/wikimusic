@@ -1,0 +1,16 @@
+@import url('./style.css');
+
+.clickable {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.clickable::after {
+ content: '🔎';
+}
+
+.clickable:hover {
+    background-color: var(--resalt-color);
+}
