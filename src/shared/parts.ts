@@ -20,7 +20,8 @@ function footer() {
     // Eliminación de `return ''` innecesario, y retorno del footer correctamente
     return `
         <footer>
-            <p>Hecho con TSML (TS + HTML)</p>
+            <p>Hecho con TS + HTML</p>
+            <p>Hecho por LuisRG-L (Orange Cat Development | 2024)</p>
         </footer>
     `;
 }

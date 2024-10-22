@@ -7,7 +7,8 @@
         </header>
     `}function v(){return b.map(a=>h(a.toUpperCase(),a)).join("")}function P(){return`
         <footer>
-            <p>Hecho con TSML (TS + HTML)</p>
+            <p>Hecho con TS + HTML</p>
+            <p>Hecho por LuisRG-L (Orange Cat Development | 2024)</p>
         </footer>
     `}function c(e){return`
         ${C()}
@@ -26,7 +27,7 @@
             </div>
         </div>
         ${P()}
-    `}const u=e=>document.querySelector(e);function V(e,a){const n=e.toLowerCase().replace(/á/g,"a").replace(/é/g,"e").replace(/í/g,"i").replace(/ó/g,"o").replace(/ú/g,"u"),r=a.toLowerCase().replace(/á/g,"a").replace(/é/g,"e").replace(/í/g,"i").replace(/ó/g,"o").replace(/ú/g,"u");return n.startsWith(r)}const E="https://luisrg-l.github.io/wikimusic/public/instruments/imgs/",g=e=>`
+    `}const u=e=>document.querySelector(e);function V(e,a){const n=e.toLowerCase().replace(/á/g,"a").replace(/é/g,"e").replace(/í/g,"i").replace(/ó/g,"o").replace(/ú/g,"u"),r=a.toLowerCase().replace(/á/g,"a").replace(/é/g,"e").replace(/í/g,"i").replace(/ó/g,"o").replace(/ú/g,"u");return n.startsWith(r)}const E="../../public/instruments/imgs/",g=e=>`
 <article class="instrument">
     ${e.img?`<img src="${E}${e.img}" alt="${e.name}">`:""}
     <header class="nohr">
