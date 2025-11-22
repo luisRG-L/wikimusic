@@ -14,12 +14,12 @@ const app = $('#app');
 if(app) {
 //
 
-document.addEventListener('keypress', (e) => {
-  // Si es la tecla esc...
-  if(e.code === 'Enter') {
-    p.render(p.home());
-  }
-})
+// document.addEventListener('keypress', (e) => {
+//   // Si es la tecla esc...
+//   if(e.code === 'Esca') {
+//     p.render(p.home());
+//   }
+// })
 
 function search() {
   const searchInput = document.getElementById('search-input') as HTMLInputElement;

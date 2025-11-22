@@ -11,23 +11,20 @@ function header() {
 }
 
 function letters() {
-    // Utilización de .join('') para generar la cadena de botones sin comas
     const buttons = abc.map(letter => c.button(letter.toUpperCase(), letter)).join('');
     return buttons;
 }
 
 function footer() {
-    // Eliminación de `return ''` innecesario, y retorno del footer correctamente
     return `
         <footer>
             <p>Hecho con TS + HTML</p>
-            <p>Hecho por LuisRG-L (Orange Cat Development | 2024)</p>
+            <p>Hecho por LuisRG-L (Orange Cat Development | 2024) (Last update: 22/11/2025)</p>
         </footer>
     `;
 }
 
 function documentn(content: string) {
-    // Estructura más limpia y consistente en el HTML generado
     return `
         ${header()}
         <div id="document">
@@ -48,6 +45,5 @@ function documentn(content: string) {
     `;
 }
 
-// Exportar las funciones de header y footer, y la función documentn por defecto
 export { header, footer };
 export default documentn;
