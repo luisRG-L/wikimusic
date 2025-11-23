@@ -29,7 +29,7 @@ export const dataraw: Data = {
     {
       name: "Atabal",
       procedence: "España",
-      family: "Cuerda",
+      family: "Percusión",
       img: "atabal.jpg",
     },
     {
@@ -41,7 +41,7 @@ export const dataraw: Data = {
     {
       name: "Bajón valenciano",
       procedence: "Valencia",
-      family: "Viento",
+      family: "Percusión",
       img: "_bajón valenciano.jpg",
     },
     {
